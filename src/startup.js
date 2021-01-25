@@ -1,6 +1,6 @@
 function onOpen() {
     SpreadsheetApp.getUi()
-        .createMenu('BOE')
+        .createMenu('Boletines')
         .addSubMenu(submenuBOE())
         .addSubMenu(submenuBOPA())
         .addToUi();
